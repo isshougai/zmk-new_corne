@@ -176,7 +176,7 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:skip-next$$
   - RGB ON
-  - BT CLR AL
+  - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-option$$
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
