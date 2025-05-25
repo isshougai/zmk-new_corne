@@ -78,7 +78,7 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-&none         &sys_reset    &none         &none         &none         &none                             &none                 &none         &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &none
+&none         &sys_reset    &none         &none         &none         &none                             &none                 &none         &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &none
 &none         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none                     &none   &none   &none         &kp CAPS      &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &none
 &none         &none         &kp RALT      &none         &none         &none         &none               &none                 &kp INS       &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &none
                                           &none         &none         &none                                                   &kp ENTER     &kp BSPC      &kp DEL
@@ -90,7 +90,7 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&none         &sys_reset    &none         &none         &none         &none                             &none                 &none         &none          &none          &none        &none           &none
+&none         &sys_reset    &none         &none         &none         &none                             &none                 &none         &kp LC(V)      &kp LC(C)      &kp LC(X)    &kp LC(Z)       &none
 &none         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none                     &none   &none   &none         &none         &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
 &none         &none         &kp RALT      &none         &none         &none         &none               &none                 &none         &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &none
                                           &none         &none         &none                                                   &mkp RCLK     &mkp LCLK      &mkp MCLK
@@ -99,8 +99,8 @@
         };
 
         // Layer 3: Media/RGB/Bluetooth
-        media_layer {
-            display-name = "Media";
+        mediabt_layer {
+            display-name = "MediaBT";
             bindings = <
 &none          &sys_reset    &none         &none         &none         &none                             &none                 &rgb_ug RGB_TOG   &rgb_ug RGB_EFF   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI &rgb_ug RGB_OFF
 &none          &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none                     &none   &none   &none         &none             &kp C_PREV        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_NEXT      &rgb_ug RGB_ON
@@ -135,8 +135,8 @@
         };
 
         // Layer 6: Function Keys
-        fun_layer {
-            display-name = "Fun";
+        func_layer {
+            display-name = "Func";
             bindings = <
 &none         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN                         &none                 &none         &none         &none         &none         &sys_reset    &none
 &none         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK                  &none   &none   &none         &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none
