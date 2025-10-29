@@ -150,7 +150,7 @@ layers:
   MediaBT:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -176,7 +176,7 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:skip-next$$
   - RGB ON
-  - BT CLR ALL
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-option$$
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
